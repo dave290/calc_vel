@@ -1,0 +1,27 @@
+#parameters.dat
+#
+#Distance from Sun to galactic center (light years) & velocity of Sun around galactic center(km/s) 
+S 25000 220
+#
+#Inner target data (quadrant 1 only) 
+#No radius since tangent-point method is used
+#glong (degrees), observed doppler shift (km/s), comments
+I  24 +110 obs_date
+I  35 +100 obs_date
+I  36  +90 obs_date
+I  45  +72 obs_date
+I  52  +65 obs_date
+I  69  +35 obs_date
+#
+#Outer target data (quadrants 1,2 and 3)
+#Estimate radius of target point since trigonometric method is used
+#glong (degrees), radius (light years), observed doppler shift (km/s), comments
+O  45 31000  -70.0 cyg obs_date
+O  69 28000  -88.0 per obs_date
+O  69 35000  -88.0 cyg obs_date
+O 118 30000  -54.0 per obs_date
+O 118 40000 -107.0 cyg obs_date
+O 150 40100  -35.0 cyg obs_date
+O 195 33000  +21.8 per obs_date
+#
+#do not return after this line
